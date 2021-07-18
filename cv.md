@@ -1,6 +1,6 @@
 # Ekaterina Rybinskaya
 ---
-![my photo](img/my_photo.jpg){width=250px}
+![my photo](img/my_photo.jpg)
 ## Contacts
 ---
 * mobile phone: __*+375336919697*__
@@ -42,7 +42,7 @@ I have no programming experience
 ---
 2005-2009 [BELARUSIAN STATE PEDAGOGICAL UNIVERSITY
 NAMED AFTER MAXIM TANK](https://en.bspu.by/),
-Physics Department, Physics and informatics Specialty, teacher.
+Physics Department, Physics and informatics Specialty, teacher
 ## My English level
 ---
 
