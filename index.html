@@ -13,21 +13,23 @@
     <div class="container">
         <div class="cont-head">
             <div class="aside-column">
-                <img class="avatar" src="img/my_photo.jpg" alt="Photo of Ekaterina Rybinskaya">
+                <div class="wrapper">
+                    <img class="avatar" src="img/my_photo(1).jpg" alt="Photo of Ekaterina Rybinskaya">
+                </div>
                 <aside>
                     <h2>Contact</h2>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><a href="tel:+357336919697">Mobile phone: +375(33)6919697</a></li>
+                        <li><a href="mailto:kate280987@gmail.com">Email: kate280987@gmail.com</a></li>
+                        <li><a href="https://github.com/Kate-bee">GitHub</a> </li>
+                        <li>Discord: Ekateryna Rybinskaya</li>
                     </ul>
                     <h2>Skills</h2>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li class="progress">HTML <progress max="100" value="50">80%</progress></li>
+                        <li class="progress">CSS <progress max="100" value="50">70%</progress></li>
+                        <li class="progress">JavaScript<progress max="100" value="60">60%</progress></li>
+                        <li class="progress">Git<progress max="100" value="75">75%</progress></li>
                     </ul>
                     <h2>English</h2>
 
@@ -42,29 +44,53 @@
                 <main>
                     <section>
                         <h2>Summary</h2>
+                        <p>My name is Katya. I am from Minsk. My goal is to change my profession. I plan to gain
+                            knowledge and experience in JavaScript / Front-end, sufficient for employment. I love to
+                            learn and do it all the time. I am a responsible, executive and diligent person, I always
+                            bring my business to the end. I like to understand something new, previously unknown to me.
+                            I am fascinated by astrophysics, I love sports and I want to work in IT.</p>
                     </section>
                     <section>
                         <h2>Code example</h2>
+                        <code><pre>
+        function isPalindrome(line) {
+            if (line !== +line) {
+                return line === line.split('').reverse().join('');
+            }
+            else {
+                let lineString = line.toString();
+                return lineString.split("").reverse().join("") === lineString;
+            }
+        }
+                        </pre></code>
                     </section>
                     <section>
                         <h2>Work experience</h2>
+                        <p>I have no programming experience</p>
                     </section>
                     <section>
                         <h2>Education</h2>
+                        <p>2005-2009 BELARUSIAN STATE PEDAGOGICAL UNIVERSITY NAMED AFTER MAXIM TANK, Physics Department,
+                            Physics and informatics Specialty, teacher</p>
                     </section>
                 </main>
 
             </div>
         </div>
         <footer>
-            <div class="foot-col-1">
-                link github
+            <div class="foot-col">
+                <a href="https://github.com/Kate-bee" target="_blank">
+                    <img src="img/GitHub-Mark-64px.png" alt="GitHub">
+                </a>
             </div>
-            <div class="foot-col-2">
-                year
+            <div class="foot-col">
+                <strong class="year">2021</strong>
+
             </div>
-            <div class="foot-col-3">
-                logo
+            <div class="foot-col">
+                <a href="https://rs.school/js/" target="_blank">
+                    <img class="logo" src="/img/rs_school_js (1).svg" alt="RS School">
+                </a>
             </div>
         </footer>
     </div>
