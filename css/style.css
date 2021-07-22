@@ -1,0 +1,79 @@
+.container {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 30px 5px #585858;
+}
+.cont-head {
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aside-column {
+    color: azure;
+    flex: 1;
+    padding: 20 px;
+    background-color: #413e3e;
+}
+.avatar {
+    width: 100%;
+    height: auto;
+}
+.main-column {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    flex: 1;
+}
+h1 {
+    padding-left: 40px;
+}
+main {
+    flex: 2;
+}
+p {
+    max-width: 520px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #b9b2b2;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    opacity: 0.5;
+}
+h2 {
+    padding-left: 20px;
+    background-color: #b9b2b2;
+    opacity: 0.5;
+    border-left: 15px solid #fbff04;
+}
+.contact {
+    color: azure;
+}
+.foot-col {
+    margin-top: 10px;
+}
+.logo {
+    width: 150px;
+    text-align: center;
+}
+.progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.year {
+    font-size: 50px;
+}
+.engl {
+    padding-left: 40px;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
