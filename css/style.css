@@ -53,6 +53,9 @@ h2 {
     opacity: 0.5;
     border-left: 15px solid #fbff04;
 }
+.contact {
+    color: azure;
+}
 .foot-col {
     margin-top: 10px;
 }
@@ -68,4 +71,9 @@ h2 {
 }
 .year {
     font-size: 50px;
+}
+.engl {
+    padding-left: 40px;
+    font-size: 28px;
+    padding-bottom: 20px;
 }
