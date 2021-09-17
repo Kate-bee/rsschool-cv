@@ -14,42 +14,70 @@
 
 <body>
     <div class="container">
+        <header class="header">
+            <div class="header__container">
+                <a href="" class="header__logo"></a>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a data-goto=".one" href="#" class="menu__link">Contact</a></li>
+                            <li><a data-goto=".two" href="#" class="menu__link">Skills</a></li>
+                            <li><a data-goto=".three" href="#" class="menu__link">English</a></li>
+                            <li><a data-goto=".four" href="#" class="menu__link">Summary</a></li>
+                            <li><a data-goto=".five" href="#" class="menu__link">Code example</a></li>
+                            <li><a data-goto=".sex" href="#" class="menu__link">мои работы</a></li>
+                            <li><a data-goto=".seven" href="#" class="menu__link">Work experience</a></li>
+                            <li><a data-goto=".section-last" href="#" class="menu__link">Education</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
         <div class="cont-head">
             <div class="aside-column">
                 <div class="wrapper">
                     <img class="avatar" src="img/my_photo(1).jpg" alt="Photo of Ekaterina Rybinskaya">
                 </div>
                 <aside>
-                    <h2>Contact</h2>
-                    <ul>
-                        <li><a class="contact" href="tel:+357336919697">Mobile phone: +375(33)6919697</a></li>
-                        <li><a class="contact" href="mailto:kate280987@gmail.com">Email: kate280987@gmail.com</a></li>
-                        <li><a class="contact" href="https://github.com/Kate-bee">GitHub</a> </li>
-                        <li>Discord: Ekateryna Rybinskaya</li>
-                    </ul>
-                    <h2>Skills</h2>
-                    <ul>
-                        <li class="progress">HTML <progress max="100" value="50">80%</progress></li>
-                        <li class="progress">CSS <progress max="100" value="50">70%</progress></li>
-                        <li class="progress">JavaScript<progress max="100" value="60">60%</progress></li>
-                        <li class="progress">Git<progress max="100" value="75">75%</progress></li>
-                    </ul>
-                    <h2>English</h2>
-                    <div class="engl">
-                        <span>A1</span>
+                    <div class="one">
+                        <h2>Contact</h2>
+                        <ul>
+                            <li><a class="contact" href="tel:+357336919697">Mobile phone: +375(33)6919697</a></li>
+                            <li><a class="contact" href="mailto:kate280987@gmail.com">Email: kate280987@gmail.com</a>
+                            </li>
+                            <li><a class="contact" href="https://github.com/Kate-bee">GitHub</a> </li>
+                            <li>Discord: Ekateryna Rybinskaya</li>
+                        </ul>
                     </div>
-
+                    <div class="two">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li class="progress">HTML <progress max="100" value="50">80%</progress></li>
+                            <li class="progress">CSS <progress max="100" value="50">70%</progress></li>
+                            <li class="progress">JavaScript<progress max="100" value="60">60%</progress></li>
+                            <li class="progress">Git<progress max="100" value="75">75%</progress></li>
+                        </ul>
+                    </div>
+                    <div class="three">
+                        <h2>English</h2>
+                        <div class="engl">
+                            <span>A1</span>
+                        </div>
+                    </div>
 
 
                 </aside>
             </div>
             <div class="main-column">
-                <header>
+                <div class="main-header">
                     <h1>Ekaterina <br>Rybinskaya</h1>
                     <p>Curriculum vitae</p>
-                </header>
+                </div>
                 <main>
-                    <section>
+                    <section class="four">
                         <h2>Summary</h2>
                         <p>My name is Katya. I am from Minsk. My goal is to change my profession. I plan to gain
                             knowledge and experience in JavaScript / Front-end, sufficient for employment. I love to
@@ -57,9 +85,8 @@
                             bring my business to the end. I like to understand something new, previously unknown to me.
                             I am fascinated by astrophysics, I love sports and I want to work in IT.</p>
                     </section>
-                    <section>
+                    <section class="five">
                         <h2>Code example</h2>
-
                         <pre><code>
 function isPalindrome(line) {
         if (line !== +line) {
@@ -78,9 +105,8 @@ function isPalindrome(line) {
         }
     }
                         </code></pre>
-
                     </section>
-                    <section>
+                    <section class="seven">
                         <h2>Work experience</h2>
                         <p>I have no programming experience</p>
                     </section>
@@ -111,8 +137,7 @@ function isPalindrome(line) {
             </div>
         </footer>
     </div>
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>
