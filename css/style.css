@@ -7,12 +7,18 @@
     box-shadow: 0 0 30px 5px #585858;
 }
 section {
-    padding-bottom: 10px;
+    width: 100%;
 }
+pre {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .cont-head {
     flex: 5;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .aside-column {
     color: azure;
@@ -28,6 +34,7 @@ section {
     flex: 2;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 header {
     flex: 1;
@@ -39,7 +46,7 @@ main {
     flex: 2;
 }
 p {
-    max-width: 520px;
+    width: 80%;
     margin: 0 auto;
 }
 footer {
@@ -47,7 +54,7 @@ footer {
     flex: 1;
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: center;
     opacity: 0.5;
 }
 h2 {
@@ -60,7 +67,11 @@ h2 {
     color: azure;
 }
 .foot-col {
-    margin-top: 10px;
+    height: 100%;
+}
+a {
+    display: block;
+    height: 100%;
 }
 .logo {
     width: 150px;
@@ -79,4 +90,138 @@ h2 {
     padding-left: 40px;
     font-size: 28px;
     padding-bottom: 20px;
+}
+.section-last {
+    padding-bottom: 10px;
+}
+@media (min-width: 320px) {
+    code {
+        font-size: 11px;
+    }
+    .logo {
+        width: 60px;
+    }
+    .logo-gh {
+        height: 30px;
+    }
+    .year {
+        font-size: 25px;
+    }
+}
+@media (min-width: 340px) {
+    code {
+        font-size: 12px;
+    }
+    .logo {
+        width: 70px;
+    }
+    .logo-gh {
+        height: 33px;
+    }
+    .year {
+        font-size: 28px;
+    }
+}
+@media (min-width: 360px) {
+    code {
+        font-size: 13px;
+    }
+    .logo {
+        width: 80px;
+    }
+    .logo-gh {
+        height: 36px;
+    }
+    .year {
+        font-size: 32px;
+    }
+}
+@media (min-width: 390px) {
+    code {
+        font-size: 14px;
+    }
+    .logo {
+        width: 90px;
+    }
+    .logo-gh {
+        height: 39px;
+    }
+    .year {
+        font-size: 35px;
+    }
+}
+@media (min-width: 480px) {
+    code {
+        font-size: 15px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .logo-gh {
+        height: 42px;
+    }
+    .year {
+        font-size: 38px;
+    }
+}
+@media (min-width: 631px) {
+    code {
+        font-size: 12px;
+    }
+    .logo {
+        width: 110px;
+    }
+    .logo-gh {
+        height: 45px;
+    }
+    .year {
+        font-size: 41px;
+    }
+}
+@media (min-width: 660px) {
+    code {
+        font-size: 13px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .logo-gh {
+        height: 50px;
+    }
+    .year {
+        font-size: 44px;
+    }
+}
+@media (min-width: 700px) {
+    code {
+        font-size: 14px;
+    }
+    .logo {
+        width: 130px;
+    }
+    .logo-gh {
+        height: 55px;
+    }
+    .year {
+        font-size: 47px;
+    }
+}
+@media (min-width: 740px) {
+    code {
+        font-size: 15px;
+    }
+    .logo {
+        width: 140px;
+    }
+    .logo-gh {
+        height: 60px;
+    }
+    .year {
+        font-size: 50px;
+    }
+}
+@media (min-width: 800px) {
+    .year {
+        font-size: 55px;
+    }
 }

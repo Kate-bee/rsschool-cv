@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <title>Ekaterina Rybinskaya | CV</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
@@ -56,26 +59,35 @@
                     </section>
                     <section>
                         <h2>Code example</h2>
+
                         <pre><code>
-        function isPalindrome(line) {
-            if (line !== +line) {
-                return line === line.split('').reverse().join('');
-            }
-            else {
-                let lineString = line.toString();
-                return lineString.split("").reverse().join("") === lineString;
-            }
+function isPalindrome(line) {
+        if (line !== +line) {
+            return line === line
+            .split('')
+            .reverse()
+            .join('');
         }
+        else {
+            let lineString = line
+            .toString();
+            return lineString
+            .split("")
+            .reverse()
+            .join("") === lineString;
+        }
+    }
                         </code></pre>
+
                     </section>
                     <section>
                         <h2>Work experience</h2>
                         <p>I have no programming experience</p>
                     </section>
-                    <section>
+                    <section class="section-last">
                         <h2>Education</h2>
                         <p>2005-2009 <a href="https://en.bspu.by/">BELARUSIAN STATE PEDAGOGICAL UNIVERSITY NAMED AFTER
-                                MAXIM TANK</a>, Physics Department,
+                                MAXIM TANK</a> Physics Department,
                             Physics and informatics Specialty, teacher</p>
                     </section>
                 </main>
@@ -85,7 +97,7 @@
         <footer>
             <div class="foot-col">
                 <a href="https://github.com/Kate-bee" target="_blank">
-                    <img src="img/GitHub-Mark-64px.png" alt="GitHub">
+                    <img class="logo-gh" src=" img/GitHub-Mark-64px.png" alt="GitHub">
                 </a>
             </div>
             <div class="foot-col">
