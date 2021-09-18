@@ -21,7 +21,7 @@ section {
     width: 100%;
 }
 pre {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 .wrapper {
@@ -165,10 +165,15 @@ code {
 .year {
     font-size: 25px;
 }
+@media (min-width: 320px) {
+    code {
+        font-size: 10px;
+    }
+}
 
 @media (min-width: 340px) {
     code {
-        font-size: 12px;
+        font-size: 11px;
     }
     .logo {
         width: 70px;
@@ -182,7 +187,7 @@ code {
 }
 @media (min-width: 360px) {
     code {
-        font-size: 13px;
+        font-size: 12px;
     }
     .logo {
         width: 80px;
@@ -224,7 +229,7 @@ code {
 }
 @media (min-width: 631px) {
     code {
-        font-size: 12px;
+        font-size: 14px;
     }
     .logo {
         width: 110px;
@@ -236,7 +241,7 @@ code {
         font-size: 41px;
     }
 }
-@media (min-width: 660px) {
+@media (min-width: 670px) {
     code {
         font-size: 13px;
     }
