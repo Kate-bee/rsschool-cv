@@ -145,8 +145,12 @@ a {
     margin: 0 auto;
     width: 90%;
 }
+.video-pl {
+    width: 100%;
+}
 .video {
     margin-top: 20px;
+    width: 100%;
 }
 code {
     font-size: 11px;
