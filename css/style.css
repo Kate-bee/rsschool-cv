@@ -109,20 +109,58 @@ a {
 .section-last {
     padding-bottom: 10px;
 }
-@media (min-width: 320px) {
-    code {
-        font-size: 11px;
-    }
-    .logo {
-        width: 60px;
-    }
-    .logo-gh {
-        height: 30px;
-    }
-    .year {
-        font-size: 25px;
-    }
+.eight {
+    width: 100%;
 }
+.project-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.project {
+    width: 100%;
+    background-color: rgba(251, 255, 4, 0.4);
+    margin: 10px 0;
+}
+.project-link {
+    display: block;
+    width: 80%;
+    align-items: center;
+    margin: 20px 0;
+    float: right;
+}
+.project:hover {
+    background-color: rgba(57, 128, 208, 1);
+}
+.project-text {
+    position: absolute;
+    color: black;
+    z-index: 5;
+}
+.video-text {
+    margin: 0 auto;
+    width: 90%;
+}
+.video {
+    margin-top: 20px;
+}
+code {
+    font-size: 11px;
+}
+.logo {
+    width: 60px;
+}
+.logo-gh {
+    height: 30px;
+}
+.year {
+    font-size: 25px;
+}
+
 @media (min-width: 340px) {
     code {
         font-size: 12px;
@@ -279,7 +317,11 @@ a {
     color: #fff;
     font-size: 18px;
 }
-@media (min-width: 760px) {
+.project-img {
+    width: 100%;
+}
+
+@media (min-width: 761px) {
     .menu__link {
         font-size: 13px;
     }
