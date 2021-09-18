@@ -201,7 +201,7 @@ code {
 }
 @media (min-width: 390px) {
     code {
-        font-size: 13px;
+        font-size: 12.5px;
     }
     .logo {
         width: 90px;
