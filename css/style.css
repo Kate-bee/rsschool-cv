@@ -185,7 +185,7 @@ code {
         font-size: 28px;
     }
 }
-@media (min-width: 360px) {
+@media (min-width: 370px) {
     code {
         font-size: 12px;
     }
@@ -201,7 +201,7 @@ code {
 }
 @media (min-width: 390px) {
     code {
-        font-size: 14px;
+        font-size: 13px;
     }
     .logo {
         width: 90px;
@@ -331,14 +331,14 @@ code {
     width: 100%;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 767px) {
     .menu__link {
         font-size: 13px;
     }
 }
 @media (min-width: 830px) {
     .menu__link {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 @media (min-width: 860px) {
