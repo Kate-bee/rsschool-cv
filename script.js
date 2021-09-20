@@ -35,3 +35,4 @@ if (iconMenu) {
 
     });
 }
+console.log('Score: https://github.com/Kate-bee/rsschool-cv/pull/4');
