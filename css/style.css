@@ -43,7 +43,8 @@ pre {
 .avatar {
     width: 100%;
     height: auto;
-    border: 3px solid white;
+    border: 4px solid #ebe5e5;
+    margin-left: -4px;
 }
 .main-column {
     flex: 2;
@@ -52,12 +53,9 @@ pre {
     width: 100%;
 }
 .main-header {
-    flex: 1;
+    margin: 20px 0 20px 40px;
 }
-h1 {
-    width: 80%;
-    margin: 0 auto;
-}
+
 main {
     flex: 2;
 }
@@ -80,6 +78,7 @@ h2 {
     border-left: 15px solid #fbff04;
 }
 .contact {
+    margin: 10px 0;
     color: azure;
 }
 .foot-col {
@@ -91,13 +90,14 @@ a {
 }
 .logo {
     width: 150px;
-    text-align: center;
 }
+
 .progress {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 20px;
+    margin: 10px 0;
 }
 .year {
     font-size: 50px;
@@ -165,6 +165,9 @@ code {
 .year {
     font-size: 25px;
 }
+.contact:hover {
+    color: rgba(57, 128, 208, 1);
+}
 @media (min-width: 320px) {
     code {
         font-size: 10px;
@@ -184,6 +187,9 @@ code {
     .year {
         font-size: 28px;
     }
+    h1 {
+        font-size: 26px;
+    }
 }
 @media (min-width: 370px) {
     code {
@@ -197,6 +203,9 @@ code {
     }
     .year {
         font-size: 32px;
+    }
+    h1 {
+        font-size: 28px;
     }
 }
 @media (min-width: 390px) {
@@ -212,6 +221,9 @@ code {
     .year {
         font-size: 35px;
     }
+    h1 {
+        font-size: 30px;
+    }
 }
 @media (min-width: 480px) {
     code {
@@ -225,6 +237,9 @@ code {
     }
     .year {
         font-size: 38px;
+    }
+    h1 {
+        font-size: 32px;
     }
 }
 @media (min-width: 631px) {
@@ -240,6 +255,9 @@ code {
     .year {
         font-size: 41px;
     }
+    h1 {
+        font-size: 34px;
+    }
 }
 @media (min-width: 670px) {
     code {
@@ -253,6 +271,9 @@ code {
     }
     .year {
         font-size: 44px;
+    }
+    h1 {
+        font-size: 24px;
     }
 }
 @media (min-width: 700px) {
@@ -306,9 +327,12 @@ code {
     justify-content: space-around;
     min-height: 70px;
 }
+up {
+    width: 100%;
+}
 .header__logo {
     border-radius: 50%;
-    background-color: aliceblue;
+    background-color: gray;
     position: relative;
     z-index: 5;
     width: 40px;
